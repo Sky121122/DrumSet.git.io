@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    user-select: none;
+}
+h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(30px);
+    padding: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px black;
+    /* box-shadow: 0px 0px 3px rgba(227, 228, 237, 0.2); */
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+.container{
+    position: relative;
+    text-align: center;
+
+}
+button{
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-weight: 700;
+    margin: 10px;
+    min-width: 190px;
+    transition: all 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1)
+}
+#crash{
+    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/9Vab0qU6HVfKPz8Zjz6WqLg13D1PFjJEGQ3yAzF80eY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWxlY3Ryb25pY2Ry/dW1hZHZpc29yLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wMS9CZXN0LUNy/YXNoLVJpZGUtQ3lt/YmFscy5qcGc");
+}
+#kick{
+    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/wjognY7Ce8cEuqyctBmGNpmbSalsvlwqojY1CLGjbwY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/c3dlZXR3YXRlci5j/b20vaW5zeW5jL21l/ZGlhLzIwMjMvMDQv/RG91YmxlLUtpY2st/RHJ1bS1QZWRhbC1h/bmQtVHdvLUJhc3Mt/RHJ1bXMtRG91Ymxl/LUtpY2stRHJ1bS12/cy4tRG91YmxlLUtp/Y2stUGVkYWwtV2hp/Y2gtSXMtUmlnaHQt/Zm9yLVlvdS0xMDUw/eDU1MC5qcGc");
+}
+#snare{
+    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/CJsjoekd87Eze9Ng0rQIshylDejio_BI1YzVKo6V3VI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9k/cnVtLXNldC1kYXJr/LXJvb20td2l0aC1i/ZWF1dGlmdWwtbGln/aHRpbmctc25hcmUt/ZHJ1bS1jeW1iYWxz/XzE2OTAxNi0xMzg2/OS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw");
+}
+#tom{
+    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/s56pyUl8BzWc72RGfWY9-eOaOqesMDwFwi0bLerkMNc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5mZHJ1bWNvLmNv/bS9jZG4vc2hvcC9w/cm9kdWN0cy9JTUdf/NDEzN18zNWNjNGNi/Yy0yNzFkLTQzYTUt/OTQ4ZC1mNDdjNjZh/MmY3YTYuanBnP3Y9/MTY2NjM3OTE4Mg");
+}
+#circuit{
+    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/ObvKPi1dUi1xresyLQL8SQATt6N82T0We5btzpzIvZA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzY0/NDU1MDU2Y2EwMmU5/NzUwNzJjZjUwMC85/NTlmYmNlMC01NWU1/LTRlZmYtODczNC1i/NDhlZmU3ZDM1NDgv/b2xkLXN0YXItc3Rh/dmUtc25hcmUtZHJ1/bS1raW5nd29vZC5q/cGc");
+}
+#star{
+    background-size: cover;
+    background-image: url("https://imgs.search.brave.com/1Zx1Lv9KtSYdUbN8YbIi07WgikU9eyWVSfW--ozN8p4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5zd2VldHdhdGVy/LmNvbS9hcGkvaS9x/LTg1X19oYS01ZGUx/OGQyOTM5Yjk2NGJj/X19obWFjLTQ4MmNl/YjAzMTE5NDdiNjVk/MDZlZTVmYWU2ZTY2/MGQyNGJkN2FhODQv/c3RvcmUvZW5oYW5j/ZWQvaXRlbXMvSUU1/MkNIQksvMDA2YjE1/LXJzXzgwMS5qcGc");
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: cadetblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+}
+footer{
+    margin-top: 5vh;
+}
+/* ========== beast mode ======== 
+ */
+ .beast-container{
+    position: relative;
+    text-align: center;
+    display: none;
+}
+#beast{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: cadetblue;
+    backdrop-filter: blur(30px);
+     box-shadow: 0px 0px 3px rgba(227, 228, 237, 0.2);
+     border: 2px solid rgba(255, 255, 255, 0.18);
+}
+#beastOn{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 1px;
+    background-color: cadetblue;
+    backdrop-filter: blur(30px);
+     box-shadow: 0px 0px 3px rgba(227, 228, 237, 0.2);
+     border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+#beastCrash, #beastKick, #beastSnare, #beastTom, #beastStar, #beastCircuit{
+    padding: 40px;
+    font-size: 30px;
+    background-size: cover;
+    border-radius: 10px;
+    border: none;
+    color: gold;
+    text-shadow: 1px 2px 3px black;
+    font-weight: 700;
+    margin: 10px;
+    min-width: 190px;
+    transition: all 0.2s;
+}
+#beastCrash{
+    background-image: url("https://imgs.search.brave.com/9Vab0qU6HVfKPz8Zjz6WqLg13D1PFjJEGQ3yAzF80eY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWxlY3Ryb25pY2Ry/dW1hZHZpc29yLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wMS9CZXN0LUNy/YXNoLVJpZGUtQ3lt/YmFscy5qcGc");
+}
+#beastKick{
+    background-image: url("https://imgs.search.brave.com/wjognY7Ce8cEuqyctBmGNpmbSalsvlwqojY1CLGjbwY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/c3dlZXR3YXRlci5j/b20vaW5zeW5jL21l/ZGlhLzIwMjMvMDQv/RG91YmxlLUtpY2st/RHJ1bS1QZWRhbC1h/bmQtVHdvLUJhc3Mt/RHJ1bXMtRG91Ymxl/LUtpY2stRHJ1bS12/cy4tRG91YmxlLUtp/Y2stUGVkYWwtV2hp/Y2gtSXMtUmlnaHQt/Zm9yLVlvdS0xMDUw/eDU1MC5qcGc");
+}
+#beastSnare{
+    background-image: url("https://imgs.search.brave.com/CJsjoekd87Eze9Ng0rQIshylDejio_BI1YzVKo6V3VI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9k/cnVtLXNldC1kYXJr/LXJvb20td2l0aC1i/ZWF1dGlmdWwtbGln/aHRpbmctc25hcmUt/ZHJ1bS1jeW1iYWxz/XzE2OTAxNi0xMzg2/OS5qcGc_c2l6ZT02/MjYmZXh0PWpwZw");
+}
+#beastTom{
+    background-image: url("https://imgs.search.brave.com/s56pyUl8BzWc72RGfWY9-eOaOqesMDwFwi0bLerkMNc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/YW5mZHJ1bWNvLmNv/bS9jZG4vc2hvcC9w/cm9kdWN0cy9JTUdf/NDEzN18zNWNjNGNi/Yy0yNzFkLTQzYTUt/OTQ4ZC1mNDdjNjZh/MmY3YTYuanBnP3Y9/MTY2NjM3OTE4Mg");
+}
+#beastCircuit{
+    background-image: url("https://imgs.search.brave.com/ObvKPi1dUi1xresyLQL8SQATt6N82T0We5btzpzIvZA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzY0/NDU1MDU2Y2EwMmU5/NzUwNzJjZjUwMC85/NTlmYmNlMC01NWU1/LTRlZmYtODczNC1i/NDhlZmU3ZDM1NDgv/b2xkLXN0YXItc3Rh/dmUtc25hcmUtZHJ1/bS1raW5nd29vZC5q/cGc");
+}
+#beastStar{
+    background-image: url("https://imgs.search.brave.com/1Zx1Lv9KtSYdUbN8YbIi07WgikU9eyWVSfW--ozN8p4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5zd2VldHdhdGVy/LmNvbS9hcGkvaS9x/LTg1X19oYS01ZGUx/OGQyOTM5Yjk2NGJj/X19obWFjLTQ4MmNl/YjAzMTE5NDdiNjVk/MDZlZTVmYWU2ZTY2/MGQyNGJkN2FhODQv/c3RvcmUvZW5oYW5j/ZWQvaXRlbXMvSUU1/MkNIQksvMDA2YjE1/LXJzXzgwMS5qcGc");
+}
